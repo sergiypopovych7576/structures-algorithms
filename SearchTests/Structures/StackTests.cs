@@ -37,7 +37,6 @@ namespace Tests.Structures
             Assert.IsFalse(cars.Any());
         }
 
-
         [Test]
         public void Stack_Pop_ShouldReturnAndRemoveItem()
         {
@@ -47,7 +46,6 @@ namespace Tests.Structures
             Assert.AreEqual("Toyota", item);
             Assert.AreEqual(1, stack.Size);
         }
-
 
         [Test]
         public void Stack_Top_ShouldReturnItem()
