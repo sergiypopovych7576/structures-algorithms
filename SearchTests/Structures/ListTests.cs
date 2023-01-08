@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using System.Collections.Generic;
 using System.Linq;
-using TestLinkedList = global::Structures.LinkedList<string>;
+using TestLinkedList = Structures.LinkedList<string>;
 
 namespace Tests.Structures
 {

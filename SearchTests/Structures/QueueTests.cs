@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using System.Collections.Generic;
 using System.Linq;
-using TestQueue = global::Structures.Queue<string>;
+using TestQueue = Structures.Queue<string>;
 
 namespace Tests.Structures
 {

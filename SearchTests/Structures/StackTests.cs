@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using System.Collections.Generic;
 using System.Linq;
-using TestStack = global::Structures.Stack<string>;
+using TestStack = Structures.Stack<string>;
 
 namespace Tests.Structures
 {

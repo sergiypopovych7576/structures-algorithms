@@ -2,20 +2,8 @@
 
 namespace Structures
 {
-    public class Queue<T> : IEnumerable<T> where T : class
+    public class Queue<T> : IEnumerable<T>
     {
-        private class Node<T> where T : class
-        {
-            public Node<T>? Next;
-            public T Value { get; private set; }
-
-            public Node(T value, Node<T>? next)
-            {
-                Value = value;
-                Next = next;
-            }
-        }
-
         private Node<T>? _head;
         private Node<T>? _tail;
         public bool IsEmpty => Size == 0;
